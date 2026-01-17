@@ -23,6 +23,11 @@ This repository is a personal collection of deep dives into various quantitative
 * **Implementation:** A comparative study of Local Volatility (Black-Scholes) vs. Stochastic Volatility (Heston) for pricing Autocallable Barrier Reverse Convertibles (based on *Farkas et al., 2021*).
 * **Analysis:** Sensitivity analysis of coupon barriers and maturity on model-risk discrepancies.
 
+### 05. Multiple Structural Changes (Bai & Perron)
+* **Focus:** Time-Series Econometrics & Regime Shifts.
+* **Implementation:** Replication of the dynamic programming algorithm for estimating multiple structural changes in linear models (based on Bai & Perron, 2003).
+* **Analysis:** Implementation of an efficient O(T^2) search for global SSR minimizers, applying BIC/LWZ criteria for optimal break selection, and conducting sequential supF tests to validate model stability.
+
 ## 🛠 Tech Stack
 * **Language:** Python
 * **Libraries:** NumPy, Pandas, Matplotlib, Scipy, Scikit-learn
