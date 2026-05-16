@@ -28,6 +28,13 @@ This repository is a personal collection of deep dives into various quantitative
 * **Implementation:** Replication of the dynamic programming algorithm for estimating multiple structural changes in linear models (based on Bai & Perron, 2003).
 * **Analysis:** Implementation of an efficient O(T^2) search for global SSR minimizers, applying BIC/LWZ criteria for optimal break selection, and conducting sequential supF tests to validate model stability.
 
+
+**06. BHS/BHW**
+
+* **Focus:** Market Microstructure & Order Flow.
+* **Implementation:** Replicated the empirical/theoretical framework of *Biais, Hillion & Spatt* regarding the informational content of the limit order book.
+* **Key Findings:** Analyzed the conditional probabilities of order arrivals and price changes based on high-frequency order book states.
+
 ## 🛠 Tech Stack
 * **Language:** Python
 * **Libraries:** NumPy, Pandas, Matplotlib, Scipy, Scikit-learn
